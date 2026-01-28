@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rfpt366gqy5t/public_html/run.adzodigital.com/
+    - /bin/cp -R * $DEPLOYPATH
