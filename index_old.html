@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Adzo | Performance-Driven Digital Growth Agency</title>
+    <meta name="title" content="Adzo | Performance-Driven Digital Growth Agency">
+    <meta name="description"
+        content="Adzo helps local and service-based businesses turn clicks into customers using Lead Gen Ads, Local SEO, and ROI-focused marketing systems.">
+    <meta name="keywords"
+        content="Digital Marketing, Lead Generation, Local SEO, Google Business Profile, Adzo Digital, Social Media Marketing">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adzodigital.com/">
+    <meta property="og:title" content="Adzo | Performance-Driven Digital Growth Agency">
+    <meta property="og:description"
+        content="We turn clicks into customers for growing businesses. ROI-focused campaigns for clinics, coaches, and local services.">
+    <meta property="og:image" content="https://adzodigital.com/wp-content/uploads/2023/07/adzo-seo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://adzodigital.com/">
+    <meta property="twitter:title" content="Adzo | Performance-Driven Digital Growth Agency">
+    <meta property="twitter:description"
+        content="We turn clicks into customers for growing businesses. ROI-focused campaigns for clinics, coaches, and local services.">
+    <meta property="twitter:image" content="https://adzodigital.com/wp-content/uploads/2023/07/adzo-seo.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        adzo: '#fa8205',
+                        'adzo-dark': '#e07200',
+                        'adzo-light': '#fff3e6',
+                        'adzo-deep': '#1a1005',
+                        'whatsapp': '#25D366'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .animate-float {
+            animation: float 5s ease-in-out infinite;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #fa8205, #ffb057);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+        }
+    </style>
+</head>
+
+<body class="bg-[#fafafa] text-slate-900 overflow-x-hidden relative">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300 border-b border-transparent bg-white/80 backdrop-blur-md"
+        id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <a href="/">
+                        <img src="https://adzodigital.com/wp-content/uploads/2025/09/logo-adzo.png" alt="Adzo Logo"
+                            class="h-10 w-auto">
+                    </a>
+                </div>
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-6 lg:space-x-8 items-center">
+                    <a href="#about" class="text-sm font-bold text-slate-600 hover:text-adzo transition">Who We Are</a>
+                    <a href="#approach" class="text-sm font-bold text-slate-600 hover:text-adzo transition">Approach</a>
+                    <a href="#services" class="text-sm font-bold text-slate-600 hover:text-adzo transition">Services</a>
+                    <a href="#industries"
+                        class="text-sm font-bold text-slate-600 hover:text-adzo transition">Industries</a>
+                    <a href="https://adzodigital.com/blog/"
+                        class="text-sm font-bold text-slate-600 hover:text-adzo transition">Blog</a>
+
+                    <div class="flex items-center gap-3 ml-2 lg:ml-4">
+                        <!-- WhatsApp Text Button in Header -->
+                        <a href="https://wa.me/918368051069" target="_blank"
+                            class="bg-whatsapp hover:bg-[#20ba5a] text-white px-5 py-2.5 rounded-full font-bold text-sm transition shadow-lg shadow-green-100 flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412 0 6.556-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.92s.589.346 3.177 1.251c1.276.444 2.622.674 3.98.674 5.456 0 9.897-4.442 9.897-9.897 0-2.643-1.029-5.128-2.902-7.001-1.874-1.874-4.359-2.903-7.001-2.903-5.456 0-9.897 4.441-9.897 9.897-.001 2.12.68 4.14 1.954 5.808l-.942 3.442 3.734-.98z" />
+                            </svg>
+                            WhatsApp
+                        </a>
+                        <a href="https://wa.me/918368051069"
+                            class="bg-adzo hover:bg-adzo-dark text-white px-5 py-2.5 rounded-full font-bold text-sm transition shadow-lg shadow-orange-200">
+                            Growth Audit
+                        </a>
+                    </div>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center gap-2">
+                    <a href="https://wa.me/918368051069"
+                        class="bg-whatsapp text-white px-4 py-1.5 rounded-full font-bold text-xs flex items-center gap-1">
+                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412 0 6.556-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.92s.589.346 3.177 1.251c1.276.444 2.622.674 3.98.674 5.456 0 9.897-4.442 9.897-9.897 0-2.643-1.029-5.128-2.902-7.001-1.874-1.874-4.359-2.903-7.001-2.903-5.456 0-9.897 4.441-9.897 9.897-.001 2.12.68 4.14 1.954 5.808l-.942 3.442 3.734-.98z" />
+                        </svg>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-28 pb-12 lg:pt-32 lg:pb-20 overflow-hidden bg-white min-h-[85vh] flex items-center">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-adzo-light opacity-20 -skew-x-12 translate-x-1/4"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            <div class="lg:flex items-center gap-12">
+                <div class="lg:w-1/2 space-y-6 reveal">
+                    <div
+                        class="inline-flex items-center px-4 py-1.5 rounded-full bg-adzo-light border border-orange-100 text-adzo text-[10px] font-black uppercase tracking-[0.2em]">
+                        🚀 Performance-Driven Growth
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1]">
+                        We Turn Clicks Into <br><span
+                            class="text-gradient underline decoration-adzo/20">Customers</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 leading-relaxed max-w-xl">
+                        Adzo is a performance-driven digital growth agency helping local & service-based businesses
+                        generate real leads, calls, and revenue.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                        <button
+                            class="bg-adzo hover:bg-adzo-dark text-white px-8 py-4 rounded-2xl text-lg font-bold shadow-2xl shadow-orange-200 transition-all hover:scale-105 active:scale-95">
+                            Get A FREE 30-Min Audit
+                        </button>
+                        <a href="https://wa.me/918368051069"
+                            class="inline-flex items-center justify-center bg-white border-2 border-slate-200 hover:border-adzo px-8 py-4 rounded-2xl text-lg font-bold text-slate-700 hover:text-adzo transition-all group shadow-sm">
+                            <svg class="w-6 h-6 mr-2 text-whatsapp group-hover:scale-110 transition" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412 0 6.556-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.92s.589.346 3.177 1.251c1.276.444 2.622.674 3.98.674 5.456 0 9.897-4.442 9.897-9.897 0-2.643-1.029-5.128-2.902-7.001-1.874-1.874-4.359-2.903-7.001-2.903-5.456 0-9.897 4.441-9.897 9.897-.001 2.12.68 4.14 1.954 5.808l-.942 3.442 3.734-.98z" />
+                            </svg>
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 mt-12 lg:mt-0 reveal">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-adzo rounded-full blur-[100px] opacity-10"></div>
+                        <!-- Hero Image: Gaur City Center -->
+                        <img src="https://adzodigital.com/wp-content/uploads/2025/10/Gaur-City-Center-Noida-Extension-62-min.png"
+                            alt="Adzo Headquarters - Gaur City Center"
+                            class="relative z-10 w-full animate-float rounded-[2.5rem] shadow-2xl border-4 border-white max-h-[500px] object-cover">
+                        <div
+                            class="absolute -bottom-6 -left-6 glass p-5 rounded-3xl shadow-2xl border border-white z-20 hidden sm:block">
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="w-10 h-10 bg-green-500 rounded-xl flex items-center justify-center text-white font-bold">
+                                    ↑</div>
+                                <div>
+                                    <p class="text-[9px] uppercase font-black text-slate-400">Lead Volume</p>
+                                    <p class="text-xl font-black text-slate-900">50,000+</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Stats Section -->
+    <section class="bg-white py-10 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
+                <div class="reveal">
+                    <p class="text-3xl font-black text-slate-900 mb-1">100+</p>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Happy Clients</p>
+                </div>
+                <div class="reveal" style="transition-delay: 100ms;">
+                    <p class="text-3xl font-black text-adzo mb-1">50K+</p>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Leads Delivered</p>
+                </div>
+                <div class="reveal col-span-2 md:col-span-1" style="transition-delay: 200ms;">
+                    <p class="text-3xl font-black text-slate-900 mb-1">3x</p>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Average Growth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section id="about" class="py-24 bg-slate-50 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex items-center gap-20">
+                <div class="lg:w-1/2 reveal">
+                    <div
+                        class="inline-block px-4 py-1.5 bg-adzo-light text-adzo text-xs font-black uppercase tracking-widest rounded-full mb-6">
+                        Who We Are
+                    </div>
+                    <h2 class="text-4xl lg:text-5xl font-extrabold text-slate-900 mb-8 leading-tight">
+                        Built for Business Owners Who Want <span class="text-adzo">Real ROI</span>
+                    </h2>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                        Adzo was built for business owners who want <span
+                            class="font-bold text-slate-900 italic">ROI-focused campaigns</span> rather than vanity
+                        metrics.
+                    </p>
+                    <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+                        No more random posting or boring content. We use <span
+                            class="font-bold text-slate-900">data-driven marketing</span> that attracts the right
+                        audience and converts them into high-paying customers.
+                    </p>
+                </div>
+                <div class="lg:w-1/2 reveal grid grid-cols-1 gap-6">
+                    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-slate-200">
+                        <div class="flex items-center gap-4 mb-4 text-red-500">
+                            <span class="text-2xl">✕</span>
+                            <p class="font-bold uppercase tracking-widest text-sm">Stop Chasing Metrics</p>
+                        </div>
+                        <p class="text-slate-500 italic">Stop focusing on random likes, followers, or pretty content
+                            that doesn't convert.</p>
+                    </div>
+                    <div class="bg-adzo p-8 rounded-[2rem] shadow-xl text-white">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-2xl">✓</span>
+                            <p class="font-bold uppercase tracking-widest text-sm">Start Driving Sales</p>
+                        </div>
+                        <p class="opacity-90 font-medium italic">We treat your business as our own, ensuring every
+                            dollar spent brings in measurable revenue.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach -->
+    <section id="approach" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h3 class="text-3xl lg:text-4xl font-black text-slate-900 mb-4">Our Approach</h3>
+                <p class="text-slate-500 max-w-xl mx-auto">A data-first methodology designed for long-term scalability.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal">
+                    <div
+                        class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
+                        1</div>
+                    <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">Strategy First</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">We don't launch ads blindly. We build a custom
+                        growth blueprint for your specific business niche.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal"
+                    style="transition-delay: 100ms;">
+                    <div
+                        class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
+                        2</div>
+                    <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">ROI Management</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Constant optimization and management to ensure
+                        your Return On Ad Spend (ROAS) is always healthy.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal"
+                    style="transition-delay: 200ms;">
+                    <div
+                        class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
+                        3</div>
+                    <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">Long-term Growth</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Building organic systems (SEO & GMB) that work
+                        alongside paid ads for sustainable results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services -->
+    <section id="services" class="py-24 bg-[#f8f9fc]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20 reveal">
+                <h2 class="text-adzo font-black uppercase tracking-[0.2em] text-sm mb-4">Core Services</h2>
+                <h3 class="text-4xl lg:text-5xl font-extrabold text-slate-900">Main Focus Areas</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div
+                    class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal">
+                    <div
+                        class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-black text-slate-900 mb-6">Lead Generation Ads</h4>
+                    <p class="text-slate-600 leading-relaxed mb-8">High-converting Facebook & Instagram campaigns that
+                        generate qualified inquiries for local businesses.</p>
+                    <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
+                </div>
+
+                <div class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal"
+                    style="transition-delay: 100ms;">
+                    <div
+                        class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-black text-slate-900 mb-6">Local SEO & GMB</h4>
+                    <p class="text-slate-600 leading-relaxed mb-8">Dominating Google Search & Maps to bring consistent
+                        organic calls and physical visits to your location.</p>
+                    <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
+                </div>
+
+                <div class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal"
+                    style="transition-delay: 200ms;">
+                    <div
+                        class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-black text-slate-900 mb-6">Social Media Presence</h4>
+                    <p class="text-slate-600 leading-relaxed mb-8">Maintaining a professional and trustworthy presence
+                        that supports all your paid and organic efforts.</p>
+                    <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries -->
+    <section id="industries" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h3 class="text-3xl lg:text-4xl font-black text-slate-900 mb-4">Industries We Serve</h3>
+                <p class="text-slate-500 max-w-xl mx-auto">Specialized growth systems for high-intent niches.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 reveal">
+                <div
+                    class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group">
+                    <span class="text-3xl block mb-4 group-hover:scale-110 transition">🩺</span>
+                    <p class="font-bold text-sm text-slate-800">Clinics</p>
+                    <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Dental, Skin, Hair</p>
+                </div>
+                <div
+                    class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group">
+                    <span class="text-3xl block mb-4 group-hover:scale-110 transition">🎓</span>
+                    <p class="font-bold text-sm text-slate-800">Coaches</p>
+                    <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Institutes & Training</p>
+                </div>
+                <div
+                    class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group">
+                    <span class="text-3xl block mb-4 group-hover:scale-110 transition">🏠</span>
+                    <p class="font-bold text-sm text-slate-800">Real Estate</p>
+                    <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Agents & Travel</p>
+                </div>
+                <div
+                    class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group">
+                    <span class="text-3xl block mb-4 group-hover:scale-110 transition">🛠️</span>
+                    <p class="font-bold text-sm text-slate-800">Service Providers</p>
+                    <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Local Experts</p>
+                </div>
+                <div class="p-6 bg-adzo rounded-2xl text-center group shadow-lg shadow-orange-100">
+                    <span class="text-3xl block mb-4 group-hover:scale-110 transition">🚀</span>
+                    <p class="font-bold text-sm text-white underline">And More</p>
+                    <p class="text-[10px] text-white/70 mt-1 uppercase font-black">Niche Businesses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 bg-adzo text-white relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
+            <h2 class="text-4xl lg:text-6xl font-black mb-8 leading-tight">Ready to Talk Growth?</h2>
+            <p class="text-xl opacity-90 mb-12">Not sure where your business is losing customers? Get a free audit.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <button
+                    class="bg-white text-adzo px-12 py-5 rounded-2xl text-xl font-black shadow-2xl hover:bg-orange-50 transition-all hover:scale-105">
+                    Book Free Growth Audit
+                </button>
+                <a href="https://wa.me/918368051069"
+                    class="bg-slate-900 text-white px-12 py-5 rounded-2xl text-xl font-black shadow-2xl hover:bg-black transition-all hover:scale-105 flex items-center justify-center gap-2">
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section: Redesigned based on screenshot -->
+    <footer class="bg-[#fafafa] pt-20 pb-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <!-- Brand Column -->
+                <div class="space-y-6">
+                    <img src="https://adzodigital.com/wp-content/uploads/2025/09/logo-adzo.png" alt="Adzo Logo"
+                        class="h-10 w-auto">
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        We blend creativity and strategy to help brands grow. Our ideas inspire, our marketing delivers,
+                        and our focus stays on real results.
+                    </p>
+                </div>
+
+                <!-- Quick Link Column -->
+                <div>
+                    <h6 class="text-adzo font-bold text-lg mb-8 uppercase tracking-wide">Quick link</h6>
+                    <ul class="space-y-4 text-slate-800 font-bold text-sm">
+                        <li><a href="/" class="hover:text-adzo transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-adzo transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-adzo transition">Our Team</a></li>
+                        <li><a href="#services" class="hover:text-adzo transition">Services</a></li>
+                        <li><a href="#" class="hover:text-adzo transition">Packages</a></li>
+                        <li><a href="#" class="hover:text-adzo transition">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Address Column -->
+                <div>
+                    <h6 class="text-adzo font-bold text-lg mb-8 uppercase tracking-wide">Address</h6>
+                    <ul class="space-y-5 text-slate-800 font-bold text-sm">
+                        <li class="flex items-center gap-3 group">
+                            <span class="text-adzo text-xl">📞</span>
+                            <a href="tel:8368051069" class="hover:text-adzo transition">8368051069</a>
+                        </li>
+                        <li class="flex items-center gap-3 group">
+                            <span class="text-adzo text-xl">✉️</span>
+                            <div class="flex flex-col">
+                                <a href="mailto:info@adzo.in" class="hover:text-adzo transition">info@adzo.in</a>
+                                <a href="mailto:sales@adzo.in" class="hover:text-adzo transition">sales@adzo.in</a>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-adzo text-xl">📍</span>
+                            <span>OC-1208 Gaur City Center,<br>Noida, U.P – 201301</span>
+                        </li>
+                    </ul>
+                    <!-- Final Social Media Links -->
+                    <div class="flex gap-4 mt-8">
+                        <a href="https://www.facebook.com/profile.php?id=61579786289698" target="_blank"
+                            class="text-slate-800 hover:text-adzo transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/adzodigitalofficial/" target="_blank"
+                            class="text-slate-800 hover:text-adzo transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/adzodigital/" target="_blank"
+                            class="text-slate-800 hover:text-adzo transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </a>
+                        <a href="https://x.com/Adzo_digital" target="_blank"
+                            class="text-slate-800 hover:text-adzo transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@Adzodigital" target="_blank"
+                            class="text-slate-800 hover:text-adzo transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map Column -->
+                <div>
+                    <h6 class="text-adzo font-bold text-lg mb-8 uppercase tracking-wide">Map Location</h6>
+                    <div class="rounded-xl overflow-hidden shadow-md border-4 border-white h-48">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5621453965565!2d77.42606497621154!3d28.612891975674395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee61262d99d1%3A0x6338b36a188f6197!2sGaur%20City%20Center!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <a href="https://www.google.com/maps" target="_blank"
+                        class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-2 block hover:text-adzo transition">View
+                        larger map</a>
+                </div>
+            </div>
+
+            <!-- Bottom Black Bar -->
+            <div
+                class="bg-black -mx-4 sm:-mx-6 lg:-mx-8 px-8 py-5 flex flex-col md:flex-row justify-between items-center text-center gap-4">
+                <p class="text-white text-[10px] font-bold tracking-widest uppercase">
+                    © 2025 <span class="text-adzo">Adzo Digital</span>. All Rights Reserved. By using our services, you
+                    agree to our <a href="#" class="text-blue-400 hover:underline">Terms & Conditions</a> and <a
+                        href="#" class="text-blue-400 hover:underline">Privacy Policy</a>.
+                </p>
+                <!-- Need Help Badge -->
+                <div class="flex items-center gap-2">
+                    <div class="bg-white px-4 py-1.5 rounded-full shadow-lg flex items-center gap-2 animate-bounce">
+                        <span class="text-slate-900 font-black text-[10px] uppercase">Need Help?</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/918368051069" target="_blank" class="fixed bottom-6 right-6 z-[100] group">
+        <div
+            class="bg-whatsapp w-16 h-16 rounded-full flex items-center justify-center shadow-[0_10px_25px_rgba(37,211,102,0.4)] transition-all group-hover:scale-110 group-hover:-translate-y-2">
+            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412 0 6.556-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.92s.589.346 3.177 1.251c1.276.444 2.622.674 3.98.674 5.456 0 9.897-4.442 9.897-9.897 0-2.643-1.029-5.128-2.902-7.001-1.874-1.874-4.359-2.903-7.001-2.903-5.456 0-9.897 4.441-9.897 9.897-.001 2.12.68 4.14 1.954 5.808l-.942 3.442 3.734-.98z" />
+            </svg>
+        </div>
+    </a>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-sm', 'h-16');
+                nav.classList.remove('h-20');
+            } else {
+                nav.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-sm', 'h-16');
+                nav.classList.add('h-20');
+            }
+        });
+
+        // Intersection Observer for Reveal Animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>

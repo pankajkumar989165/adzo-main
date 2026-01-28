@@ -1,0 +1,282 @@
+<?php
+$page_title = 'Adzo | Performance-Driven Digital Growth Agency';
+$meta_description = 'Adzo helps local and service-based businesses turn clicks into customers using Lead Gen Ads, Local SEO, and ROI-focused marketing systems.';
+$current_page = 'home';
+require_once __DIR__ . '/includes/header.php';
+?>
+
+<!-- Hero Section -->
+<section class="relative pt-28 pb-12 lg:pt-32 lg:pb-20 overflow-hidden bg-white min-h-[85vh] flex items-center">
+    <div class="absolute top-0 right-0 w-1/2 h-full bg-adzo-light opacity-20 -skew-x-12 translate-x-1/4"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+        <div class="lg:flex items-center gap-12">
+            <div class="lg:w-1/2 space-y-6 reveal">
+                <div
+                    class="inline-flex items-center px-4 py-1.5 rounded-full bg-adzo-light border border-orange-100 text-adzo text-[10px] font-black uppercase tracking-[0.2em]">
+                    🚀 Performance-Driven Growth
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1]">
+                    We Turn Clicks Into <br><span class="text-gradient underline decoration-adzo/20">Customers</span>
+                </h1>
+                <p class="text-lg text-slate-600 leading-relaxed max-w-xl">
+                    Adzo is a performance-driven digital growth agency helping local & service-based businesses generate
+                    real leads, calls, and revenue.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                    <a href="#contact"
+                        class="inline-flex justify-center items-center bg-adzo hover:bg-adzo-dark text-white px-8 py-4 rounded-2xl text-lg font-bold shadow-2xl shadow-orange-200 transition-all hover:scale-105 active:scale-95">
+                        Get A FREE 30-Min Audit
+                    </a>
+                    <a href="https://wa.me/918368051069"
+                        class="inline-flex items-center justify-center bg-white border-2 border-slate-200 hover:border-adzo px-8 py-4 rounded-2xl text-lg font-bold text-slate-700 hover:text-adzo transition-all group shadow-sm">
+                        <svg class="w-6 h-6 mr-2 text-whatsapp group-hover:scale-110 transition" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412 0 6.556-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.92s.589.346 3.177 1.251c1.276.444 2.622.674 3.98.674 5.456 0 9.897-4.442 9.897-9.897 0-2.643-1.029-5.128-2.902-7.001-1.874-1.874-4.359-2.903-7.001-2.903-5.456 0-9.897 4.441-9.897 9.897-.001 2.12.68 4.14 1.954 5.808l-.942 3.442 3.734-.98z" />
+                        </svg>
+                        Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-12 lg:mt-0 reveal">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-adzo rounded-full blur-[100px] opacity-10"></div>
+                    <!-- Hero Image: Gaur City Center -->
+                    <img src="https://adzodigital.com/wp-content/uploads/2025/10/Gaur-City-Center-Noida-Extension-62-min.png"
+                        alt="Adzo Headquarters - Gaur City Center"
+                        class="relative z-10 w-full animate-float rounded-[2.5rem] shadow-2xl border-4 border-white max-h-[500px] object-cover">
+                    <div
+                        class="absolute -bottom-6 -left-6 glass p-5 rounded-3xl shadow-2xl border border-white z-20 hidden sm:block">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-10 h-10 bg-green-500 rounded-xl flex items-center justify-center text-white font-bold">
+                                ↑</div>
+                            <div>
+                                <p class="text-[9px] uppercase font-black text-slate-400">Lead Volume</p>
+                                <p class="text-xl font-black text-slate-900">50,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- Stats Section -->
+<section class="bg-white py-10 border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
+            <div class="reveal">
+                <p class="text-3xl font-black text-slate-900 mb-1">100+</p>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Happy Clients</p>
+            </div>
+            <div class="reveal" style="transition-delay: 100ms;">
+                <p class="text-3xl font-black text-adzo mb-1">50K+</p>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Leads Delivered</p>
+            </div>
+            <div class="reveal col-span-2 md:col-span-1" style="transition-delay: 200ms;">
+                <p class="text-3xl font-black text-slate-900 mb-1">3x</p>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Average Growth</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Who We Are -->
+<section id="about" class="py-24 bg-slate-50 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:flex items-center gap-20">
+            <div class="lg:w-1/2 reveal">
+                <div
+                    class="inline-block px-4 py-1.5 bg-adzo-light text-adzo text-xs font-black uppercase tracking-widest rounded-full mb-6">
+                    Who We Are
+                </div>
+                <h2 class="text-4xl lg:text-5xl font-extrabold text-slate-900 mb-8 leading-tight">
+                    Built for Business Owners Who Want <span class="text-adzo">Real ROI</span>
+                </h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Adzo was built for business owners who want <span
+                        class="font-bold text-slate-900 italic">ROI-focused campaigns</span> rather than vanity metrics.
+                </p>
+                <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+                    No more random posting or boring content. We use <span class="font-bold text-slate-900">data-driven
+                        marketing</span> that attracts the right audience and converts them into high-paying customers.
+                </p>
+            </div>
+            <div class="lg:w-1/2 reveal grid grid-cols-1 gap-6">
+                <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-slate-200">
+                    <div class="flex items-center gap-4 mb-4 text-red-500">
+                        <span class="text-2xl">✕</span>
+                        <p class="font-bold uppercase tracking-widest text-sm">Stop Chasing Metrics</p>
+                    </div>
+                    <p class="text-slate-500 italic">Stop focusing on random likes, followers, or pretty content that
+                        doesn't convert.</p>
+                </div>
+                <div class="bg-adzo p-8 rounded-[2rem] shadow-xl text-white">
+                    <div class="flex items-center gap-4 mb-4">
+                        <span class="text-2xl">✓</span>
+                        <p class="font-bold uppercase tracking-widest text-sm">Start Driving Sales</p>
+                    </div>
+                    <p class="opacity-90 font-medium italic">We treat your business as our own, ensuring every dollar
+                        spent brings in measurable revenue.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Approach -->
+<section id="approach" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+            <h3 class="text-3xl lg:text-4xl font-black text-slate-900 mb-4">Our Approach</h3>
+            <p class="text-slate-500 max-w-xl mx-auto">A data-first methodology designed for long-term scalability.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal">
+                <div
+                    class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
+                    1</div>
+                <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">Strategy First</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">We don't launch ads blindly. We build a custom growth
+                    blueprint for your specific business niche.</p>
+            </div>
+            <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal"
+                style="transition-delay: 100ms;">
+                <div
+                    class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
+                    2</div>
+                <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">ROI Management</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Constant optimization and management to ensure your
+                    Return On Ad Spend (ROAS) is always healthy.</p>
+            </div>
+            <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal"
+                style="transition-delay: 200ms;">
+                <div
+                    class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
+                    3</div>
+                <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">Long-term Growth</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Building organic systems (SEO & GMB) that work
+                    alongside paid ads for sustainable results.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Core Services -->
+<section id="services" class="py-24 bg-[#f8f9fc]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-20 reveal">
+            <h2 class="text-adzo font-black uppercase tracking-[0.2em] text-sm mb-4">Core Services</h2>
+            <h3 class="text-4xl lg:text-5xl font-extrabold text-slate-900">Main Focus Areas</h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Lead Generation -->
+            <a href="/pages/services/lead-generation-ads.php"
+                class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal block">
+                <div
+                    class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
+                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"></path>
+                    </svg>
+                </div>
+                <h4 class="text-2xl font-black text-slate-900 mb-6 group-hover:text-adzo transition">Lead Generation Ads
+                </h4>
+                <p class="text-slate-600 leading-relaxed mb-8">High-converting Facebook & Instagram campaigns that
+                    generate qualified inquiries for local businesses.</p>
+                <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
+            </a>
+
+            <!-- SEO -->
+            <a href="/pages/services/local-seo-gmb.php"
+                class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal block"
+                style="transition-delay: 100ms;">
+                <div
+                    class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
+                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                        </path>
+                    </svg>
+                </div>
+                <h4 class="text-2xl font-black text-slate-900 mb-6 group-hover:text-adzo transition">Local SEO & GMB
+                </h4>
+                <p class="text-slate-600 leading-relaxed mb-8">Dominating Google Search & Maps to bring consistent
+                    organic calls and physical visits to your location.</p>
+                <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
+            </a>
+
+            <!-- Social Media -->
+            <a href="/pages/services/social-media-presence.php"
+                class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal block"
+                style="transition-delay: 200ms;">
+                <div
+                    class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
+                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path>
+                    </svg>
+                </div>
+                <h4 class="text-2xl font-black text-slate-900 mb-6 group-hover:text-adzo transition">Social Media
+                    Presence</h4>
+                <p class="text-slate-600 leading-relaxed mb-8">Maintaining a professional and trustworthy presence that
+                    supports all your paid and organic efforts.</p>
+                <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Industries -->
+<section id="industries" class="py-24 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+            <h3 class="text-3xl lg:text-4xl font-black text-slate-900 mb-4">Industries We Serve</h3>
+            <p class="text-slate-500 max-w-xl mx-auto">Specialized growth systems for high-intent niches.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 reveal">
+            <a href="/pages/industries/hair-clinics.php"
+                class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group block">
+                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🩺</span>
+                <p class="font-bold text-sm text-slate-800 group-hover:text-adzo transition">Clinics</p>
+                <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Dental, Skin, Hair</p>
+            </a>
+            <a href="/pages/industries/fitness-coaches.php"
+                class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group block">
+                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🎓</span>
+                <p class="font-bold text-sm text-slate-800 group-hover:text-adzo transition">Coaches</p>
+                <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Institutes & Training</p>
+            </a>
+            <a href="/pages/industries/real-estate.php"
+                class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group block">
+                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🏠</span>
+                <p class="font-bold text-sm text-slate-800 group-hover:text-adzo transition">Real Estate</p>
+                <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Agents & Travel</p>
+            </a>
+            <a href="/pages/industries/local-services.php"
+                class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group block">
+                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🛠️</span>
+                <p class="font-bold text-sm text-slate-800 group-hover:text-adzo transition">Service Providers</p>
+                <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Local Experts</p>
+            </a>
+            <a href="/pages/industries.php"
+                class="p-6 bg-adzo rounded-2xl text-center group shadow-lg shadow-orange-100 block">
+                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🚀</span>
+                <p class="font-bold text-sm text-white underline">See All</p>
+                <p class="text-[10px] text-white/70 mt-1 uppercase font-black">Niche Businesses</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Include Contact Form -->
+<?php require_once __DIR__ . '/includes/contact_form.php'; ?>
+
+<?php require_once __DIR__ . '/includes/footer.php'; ?>
