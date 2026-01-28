@@ -1,0 +1,21 @@
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies
+node_modules/
+vendor/
+
+# Configuration & Sensitives (Uncomment if these contain production credentials)
+# config/config.php
+# config/database.php
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
