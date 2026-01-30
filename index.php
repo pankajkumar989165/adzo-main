@@ -86,44 +86,89 @@ require_once __DIR__ . '/includes/header.php';
 </section>
 
 <!-- Who We Are -->
-<section id="about" class="py-24 bg-slate-50 relative overflow-hidden">
+<section id="about" class="py-24 bg-white relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="lg:flex items-center gap-20">
-            <div class="lg:w-1/2 reveal">
-                <div
-                    class="inline-block px-4 py-1.5 bg-adzo-light text-adzo text-xs font-black uppercase tracking-widest rounded-full mb-6">
-                    Who We Are
-                </div>
-                <h2 class="text-4xl lg:text-5xl font-extrabold text-slate-900 mb-8 leading-tight">
-                    Built for Business Owners Who Want <span class="text-adzo">Real ROI</span>
-                </h2>
-                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
-                    Adzo was built for business owners who want <span
-                        class="font-bold text-slate-900 italic">ROI-focused campaigns</span> rather than vanity metrics.
+        <!-- Header -->
+        <div class="text-center mb-16 reveal">
+            <h2 class="flex items-center justify-center gap-3 text-4xl lg:text-5xl font-extrabold text-slate-900 mb-4">
+                <span class="animate-pulse">👋</span> About Adzo
+            </h2>
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest">Who We Are</p>
+        </div>
+
+        <div class="lg:flex items-start gap-16 lg:gap-24">
+            <!-- Left Column: Text -->
+            <div class="lg:w-1/2 reveal space-y-8">
+                <p class="text-xl text-slate-600 leading-relaxed font-medium">
+                    Adzo was built for business owners who want <span class="text-adzo font-bold">results — not vanity
+                        metrics</span>.
                 </p>
-                <p class="text-lg text-slate-600 mb-10 leading-relaxed">
-                    No more random posting or boring content. We use <span class="font-bold text-slate-900">data-driven
-                        marketing</span> that attracts the right audience and converts them into high-paying customers.
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    We don't believe in running random ads or posting content without strategy. Instead, we build <span
+                        class="font-bold text-slate-900">data-driven marketing systems</span> that attract the right
+                    audience and convert them into paying customers.
                 </p>
             </div>
-            <div class="lg:w-1/2 reveal grid grid-cols-1 gap-6">
-                <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-slate-200">
-                    <div class="flex items-center gap-4 mb-4 text-red-500">
-                        <span class="text-2xl">✕</span>
-                        <p class="font-bold uppercase tracking-widest text-sm">Stop Chasing Metrics</p>
-                    </div>
-                    <p class="text-slate-500 italic">Stop focusing on random likes, followers, or pretty content that
-                        doesn't convert.</p>
-                </div>
-                <div class="bg-adzo p-8 rounded-[2rem] shadow-xl text-white">
-                    <div class="flex items-center gap-4 mb-4">
-                        <span class="text-2xl">✓</span>
-                        <p class="font-bold uppercase tracking-widest text-sm">Start Driving Sales</p>
-                    </div>
-                    <p class="opacity-90 font-medium italic">We treat your business as our own, ensuring every dollar
-                        spent brings in measurable revenue.</p>
+
+            <!-- Right Column: Our Approach Card -->
+            <div class="lg:w-1/2 mt-12 lg:mt-0 reveal" style="transition-delay: 100ms;">
+                <div class="bg-orange-50 rounded-[2.5rem] p-10 lg:p-12 border border-orange-100">
+                    <h3 class="text-xl font-black text-slate-900 mb-8">Our Approach</h3>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-adzo flex items-center justify-center mt-1">
+                                <svg class="w-3.5 h-3.5 text-adzo" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <span class="text-slate-700 font-medium">Strategy first, execution second</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-adzo flex items-center justify-center mt-1">
+                                <svg class="w-3.5 h-3.5 text-adzo" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <span class="text-slate-700 font-medium">ROI-focused campaigns</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-adzo flex items-center justify-center mt-1">
+                                <svg class="w-3.5 h-3.5 text-adzo" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <span class="text-slate-700 font-medium">Transparent communication & reporting</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-adzo flex items-center justify-center mt-1">
+                                <svg class="w-3.5 h-3.5 text-adzo" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <span class="text-slate-700 font-medium">No long-term lock-ins</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
+
+        <div class="text-center mt-16 reveal">
+            <a href="#about-us-page"
+                class="inline-block bg-adzo hover:bg-adzo-dark text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
+                Learn More About Us
+            </a>
         </div>
     </div>
 </section>
