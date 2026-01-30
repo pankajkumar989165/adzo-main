@@ -165,7 +165,7 @@ require_once __DIR__ . '/includes/header.php';
         </div>
 
         <div class="text-center mt-16 reveal">
-            <a href="#about-us-page"
+            <a href="/pages/about.php"
                 class="inline-block bg-adzo hover:bg-adzo-dark text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
                 Learn More About Us
             </a>
@@ -173,44 +173,7 @@ require_once __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<!-- Our Approach -->
-<section id="approach" class="py-24 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16 reveal">
-            <h3 class="text-3xl lg:text-4xl font-black text-slate-900 mb-4">Our Approach</h3>
-            <p class="text-slate-500 max-w-xl mx-auto">A data-first methodology designed for long-term scalability.</p>
-        </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal">
-                <div
-                    class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
-                    1</div>
-                <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">Strategy First</h4>
-                <p class="text-slate-600 text-sm leading-relaxed">We don't launch ads blindly. We build a custom growth
-                    blueprint for your specific business niche.</p>
-            </div>
-            <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal"
-                style="transition-delay: 100ms;">
-                <div
-                    class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
-                    2</div>
-                <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">ROI Management</h4>
-                <p class="text-slate-600 text-sm leading-relaxed">Constant optimization and management to ensure your
-                    Return On Ad Spend (ROAS) is always healthy.</p>
-            </div>
-            <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 reveal"
-                style="transition-delay: 200ms;">
-                <div
-                    class="w-12 h-12 bg-adzo text-white rounded-xl flex items-center justify-center font-black mb-6 shadow-lg shadow-orange-100">
-                    3</div>
-                <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">Long-term Growth</h4>
-                <p class="text-slate-600 text-sm leading-relaxed">Building organic systems (SEO & GMB) that work
-                    alongside paid ads for sustainable results.</p>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Core Services -->
 <section id="services" class="py-24 bg-[#fffbf0]">
