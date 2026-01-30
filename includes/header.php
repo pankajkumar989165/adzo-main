@@ -16,21 +16,24 @@ $current_page = $current_page ?? 'home';
     <meta name="title" content="<?php echo htmlspecialchars($page_title); ?>">
     <meta name="description" content="<?php echo htmlspecialchars($meta_description); ?>">
     <meta name="keywords"
-        content="Digital Marketing, Lead Generation, Local SEO, Google Business Profile, Adzo Digital, Social Media Marketing">
+        content="<?php echo htmlspecialchars($meta_keywords ?? 'Digital Marketing, Lead Generation, Local SEO, Google Business Profile, Adzo Digital, Social Media Marketing'); ?>">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://adzodigital.com/">
+    <meta property="og:type" content="<?php echo htmlspecialchars($og_type ?? 'website'); ?>">
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url ?? 'https://adzodigital.com/'); ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($meta_description); ?>">
-    <meta property="og:image" content="https://adzodigital.com/wp-content/uploads/2023/07/adzo-seo.png">
+    <meta property="og:image"
+        content="<?php echo htmlspecialchars($og_image ?? 'https://adzodigital.com/wp-content/uploads/2023/07/adzo-seo.png'); ?>">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://adzodigital.com/">
+    <meta property="twitter:url"
+        content="<?php echo htmlspecialchars($canonical_url ?? 'https://adzodigital.com/'); ?>">
     <meta property="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>">
     <meta property="twitter:description" content="<?php echo htmlspecialchars($meta_description); ?>">
-    <meta property="twitter:image" content="https://adzodigital.com/wp-content/uploads/2023/07/adzo-seo.png">
+    <meta property="twitter:image"
+        content="<?php echo htmlspecialchars($og_image ?? 'https://adzodigital.com/wp-content/uploads/2023/07/adzo-seo.png'); ?>">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -103,6 +106,8 @@ $current_page = $current_page ?? 'home';
             background: linear-gradient(to right, transparent, #e2e8f0, transparent);
         }
     </style>
+    <?php if (isset($extra_head_content))
+        echo $extra_head_content; ?>
 </head>
 
 <body class="bg-[#fafafa] text-slate-900 overflow-x-hidden relative">
