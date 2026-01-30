@@ -677,6 +677,48 @@ require_once __DIR__ . '/includes/header.php';
     </div>
 </section>
 
+<!-- Free Audit CTA -->
+<section id="free-audit" class="py-24 bg-adzo relative overflow-hidden">
+    <div class="max-w-4xl mx-auto px-4 text-center text-white relative z-10 reveal">
+        <h2 class="text-4xl lg:text-5xl font-extrabold mb-6 leading-tight">
+            Get a FREE 30-Minute Growth Audit
+        </h2>
+
+        <p class="text-xl font-medium mb-4 opacity-90">
+            Not sure where your business is losing customers?
+        </p>
+
+        <p class="text-base opacity-90 mb-10 max-w-2xl mx-auto leading-relaxed">
+            We'll review your <span class="font-bold underline decoration-white/30">ads, website, or Google
+                presence</span> and show you <span class="font-bold underline decoration-white/30">exactly what to
+                fix</span>.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-10">
+            <a href="#contact"
+                class="flex items-center justify-center bg-white text-adzo px-8 py-4.5 rounded-full text-lg font-bold shadow-xl hover:shadow-2xl hover:bg-orange-50 transition-all hover:-translate-y-1 w-full sm:w-auto min-w-[240px]">
+                Book Free Audit Now <span class="ml-2">→</span>
+            </a>
+            <a href="https://wa.me/918368051069"
+                class="flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-white/10 transition-all hover:-translate-y-1 w-full sm:w-auto min-w-[240px]">
+                Chat on WhatsApp <span class="ml-2">→</span>
+            </a>
+        </div>
+
+        <p class="text-xs opacity-75 font-medium tracking-wide">
+            No sales pressure • Actionable insights • Fast response • Direct communication
+        </p>
+    </div>
+
+    <!-- Background Decor -->
+    <div
+        class="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none">
+    </div>
+    <div
+        class="absolute bottom-0 left-0 w-48 h-48 bg-white opacity-5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 pointer-events-none">
+    </div>
+</section>
+
 <!-- Include Contact Form -->
 <?php require_once __DIR__ . '/includes/contact_form.php'; ?>
 
