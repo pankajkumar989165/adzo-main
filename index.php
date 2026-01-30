@@ -470,6 +470,159 @@ require_once __DIR__ . '/includes/header.php';
     </div>
 </section>
 
+<!-- Additional Growth Solutions -->
+<section id="additional-solutions" class="py-24 bg-[#fffbf0]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+            <h2 class="flex items-center justify-center gap-3 text-4xl lg:text-5xl font-extrabold text-slate-900 mb-2">
+                <span class="text-4xl text-adzo font-bold">+</span> Additional Growth Solutions
+            </h2>
+            <p class="text-slate-500 font-medium text-lg">Micro-Niches</p>
+            <p class="text-xs text-slate-400 mt-4 max-w-2xl mx-auto">
+                These services are offered as <span class="font-bold text-slate-600">add-ons</span> to support and scale
+                your core growth strategy.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Influencer Marketing -->
+            <div class="bg-white p-10 rounded-[2rem] shadow-lg hover:shadow-xl transition-all reveal group">
+                <div class="text-4xl mb-6">🤝</div>
+                <h3 class="text-xl font-black text-slate-900 mb-4">Influencer Marketing</h3>
+                <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                    We work with relevant micro & niche influencers to increase trust, reach, and conversions —
+                    especially for launches and awareness campaigns.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Influencer research & selection</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Campaign planning & coordination</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Performance-based execution</span>
+                    </li>
+                </ul>
+                <a href="/pages/services/influencer-marketing.php"
+                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-3.5 rounded-lg shadow-md transition-all hover:-translate-y-0.5">
+                    Explore Influencer Campaigns
+                </a>
+            </div>
+
+            <!-- Short-Form Video -->
+            <div class="bg-white p-10 rounded-[2rem] shadow-lg hover:shadow-xl transition-all reveal group"
+                style="transition-delay: 100ms;">
+                <div class="text-4xl mb-6">🎥</div>
+                <h3 class="text-xl font-black text-slate-900 mb-4">Short-Form Video & UGC Ads</h3>
+                <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                    High-performing video creatives designed for Reels, Shorts, and paid ads.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Ad-ready short-form videos</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>UGC-style scripts & editing</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Creative testing for better ROI</span>
+                    </li>
+                </ul>
+                <a href="/pages/services/ugc-video-ads.php"
+                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-3.5 rounded-lg shadow-md transition-all hover:-translate-y-0.5">
+                    Create Video Ads
+                </a>
+            </div>
+
+            <!-- WhatsApp Marketing -->
+            <div class="bg-white p-10 rounded-[2rem] shadow-lg hover:shadow-xl transition-all reveal group">
+                <div class="text-4xl mb-6">📩</div>
+                <h3 class="text-xl font-black text-slate-900 mb-4">WhatsApp Marketing Automation</h3>
+                <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                    Convert more leads without extra effort using automated WhatsApp flows.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Instant auto-replies</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Follow-up & nurturing sequences</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Lead qualification automation</span>
+                    </li>
+                </ul>
+                <a href="/pages/services/whatsapp-automation.php"
+                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-3.5 rounded-lg shadow-md transition-all hover:-translate-y-0.5">
+                    Automate My Leads
+                </a>
+            </div>
+
+            <!-- CRO -->
+            <div class="bg-white p-10 rounded-[2rem] shadow-lg hover:shadow-xl transition-all reveal group"
+                style="transition-delay: 100ms;">
+                <div class="text-4xl mb-6">🔍</div>
+                <h3 class="text-xl font-black text-slate-900 mb-4">Conversion Rate Optimization (CRO)</h3>
+                <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                    Increase results without increasing ad spend.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>Landing page & funnel optimization</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>CTA & form improvement</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-700">
+                        <div
+                            class="w-4 h-4 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px]">
+                            ✓</div>
+                        <span>A/B testing recommendations</span>
+                    </li>
+                </ul>
+                <a href="/pages/services/cro.php"
+                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-3.5 rounded-lg shadow-md transition-all hover:-translate-y-0.5">
+                    Improve My Conversions
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Industries -->
 <section id="industries" class="py-24 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
