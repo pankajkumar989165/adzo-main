@@ -213,67 +213,135 @@ require_once __DIR__ . '/includes/header.php';
 </section>
 
 <!-- Core Services -->
-<section id="services" class="py-24 bg-[#f8f9fc]">
+<section id="services" class="py-24 bg-[#fffbf0]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-20 reveal">
-            <h2 class="text-adzo font-black uppercase tracking-[0.2em] text-sm mb-4">Core Services</h2>
-            <h3 class="text-4xl lg:text-5xl font-extrabold text-slate-900">Main Focus Areas</h3>
+        <div class="text-center mb-16 reveal">
+            <h2 class="flex items-center justify-center gap-3 text-4xl lg:text-5xl font-extrabold text-slate-900 mb-2">
+                <span class="animate-bounce">🚀</span> Our Core Services
+            </h2>
+            <p class="text-slate-500 font-medium text-lg">Main Focus</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Lead Generation -->
-            <a href="/pages/services/lead-generation-ads.php"
-                class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal block">
-                <div
-                    class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
-                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"></path>
-                    </svg>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+            <!-- Lead Generation (Primary) -->
+            <div class="bg-white p-8 lg:p-10 rounded-[2rem] border-2 border-adzo shadow-xl relative reveal group hover:shadow-2xl transition-all duration-300">
+                <div class="flex items-start justify-between mb-6">
+                    <div>
+                        <div class="text-4xl mb-3">🔥</div>
+                        <h3 class="text-xl font-black text-slate-900 leading-tight">Lead Generation Ads</h3>
+                        <p class="text-xs font-bold text-adzo uppercase tracking-wider mt-1">Primary Service</p>
+                    </div>
                 </div>
-                <h4 class="text-2xl font-black text-slate-900 mb-6 group-hover:text-adzo transition">Lead Generation Ads
-                </h4>
-                <p class="text-slate-600 leading-relaxed mb-8">High-converting Facebook & Instagram campaigns that
-                    generate qualified inquiries for local businesses.</p>
-                <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
-            </a>
+                
+                <p class="text-slate-600 text-sm leading-relaxed mb-8">
+                    We design and manage high-converting Facebook & Instagram campaigns that generate qualified inquiries for your business.
+                </p>
 
-            <!-- SEO -->
-            <a href="/pages/services/local-seo-gmb.php"
-                class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal block"
-                style="transition-delay: 100ms;">
-                <div
-                    class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
-                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                        </path>
-                    </svg>
-                </div>
-                <h4 class="text-2xl font-black text-slate-900 mb-6 group-hover:text-adzo transition">Local SEO & GMB
-                </h4>
-                <p class="text-slate-600 leading-relaxed mb-8">Dominating Google Search & Maps to bring consistent
-                    organic calls and physical visits to your location.</p>
-                <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
-            </a>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>Audience research & targeting</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>Creatives & conversion-focused copy</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>WhatsApp / Call / Form leads</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-adzo text-adzo flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>Continuous optimization & reporting</span>
+                    </li>
+                </ul>
 
-            <!-- Social Media -->
-            <a href="/pages/services/social-media-presence.php"
-                class="group p-12 rounded-[3rem] bg-white border border-slate-100 hover:border-adzo transition-all duration-500 reveal block"
-                style="transition-delay: 200ms;">
-                <div
-                    class="w-20 h-20 bg-adzo-light text-adzo rounded-3xl flex items-center justify-center mb-10 group-hover:scale-110 transition duration-500">
-                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path>
-                    </svg>
+                <div class="bg-orange-50 rounded-xl p-4 mb-8">
+                    <p class="text-[10px] text-slate-500 font-medium leading-relaxed">
+                        Best for: Clinics, coaches, real estate, travel & service businesses
+                    </p>
                 </div>
-                <h4 class="text-2xl font-black text-slate-900 mb-6 group-hover:text-adzo transition">Social Media
-                    Presence</h4>
-                <p class="text-slate-600 leading-relaxed mb-8">Maintaining a professional and trustworthy presence that
-                    supports all your paid and organic efforts.</p>
-                <div class="h-1 bg-slate-100 group-hover:bg-adzo w-12 transition-all duration-500"></div>
-            </a>
+
+                <a href="/pages/services/lead-generation-ads.php" class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
+                    Get Leads for My Business
+                </a>
+            </div>
+
+            <!-- Local SEO -->
+            <div class="bg-white p-8 lg:p-10 rounded-[2rem] shadow-lg border border-transparent hover:border-adzo/20 reveal group transition-all duration-300" style="transition-delay: 100ms;">
+                <div class="flex items-start justify-between mb-6">
+                    <div>
+                        <div class="text-4xl mb-3">📍</div>
+                        <h3 class="text-xl font-black text-slate-900 leading-tight">Local SEO & Google Business Growth</h3>
+                        <p class="text-xs font-bold text-orange-400 uppercase tracking-wider mt-1">Support Service</p>
+                    </div>
+                </div>
+                
+                <p class="text-slate-600 text-sm leading-relaxed mb-8">
+                    We help your business rank on Google Search & Maps, bringing in consistent organic leads month after month.
+                </p>
+
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-orange-300 text-orange-400 flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>Google Business Profile optimization</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-orange-300 text-orange-400 flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>Local keyword & location targeting</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-orange-300 text-orange-400 flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>On-page SEO & citations</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-orange-300 text-orange-400 flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>Monthly ranking improvement</span>
+                    </li>
+                </ul>
+
+                <div class="h-4"></div> <!-- Spacer to align buttons -->
+
+                <a href="/pages/services/local-seo-gmb.php" class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
+                    Improve My Google Ranking
+                </a>
+            </div>
+
+            <!-- Social Media via -->
+            <div class="bg-white p-8 lg:p-10 rounded-[2rem] shadow-lg border border-transparent hover:border-adzo/20 reveal group transition-all duration-300" style="transition-delay: 200ms;">
+                <div class="flex items-start justify-between mb-6">
+                    <div>
+                        <div class="text-4xl mb-3">📱</div>
+                        <h3 class="text-xl font-black text-slate-900 leading-tight">Social Media Presence</h3>
+                        <p class="text-xs font-bold text-orange-400 uppercase tracking-wider mt-1">Support Service</p>
+                    </div>
+                </div>
+                
+                <p class="text-slate-600 text-sm leading-relaxed mb-8">
+                    We maintain a professional and trustworthy online presence that supports your ads and SEO efforts.
+                </p>
+
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-orange-300 text-orange-400 flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>12–15 posts per month</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-orange-300 text-orange-400 flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>Clean Canva creatives</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-slate-700">
+                        <div class="w-5 h-5 rounded-full border border-orange-300 text-orange-400 flex items-center justify-center flex-shrink-0 text-[10px] mt-0.5">✓</div>
+                        <span>Captions & posting</span>
+                    </li>
+                </ul>
+
+                 <div class="h-12 hidden lg:block"></div> <!-- Larger Spacer -->
+
+                <a href="/pages/services/social-media-presence.php" class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
+                    Build My Brand Presence
+                </a>
+            </div>
         </div>
     </div>
 </section>
