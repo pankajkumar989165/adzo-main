@@ -126,8 +126,6 @@ $current_page = $current_page ?? 'home';
                         class="text-sm font-bold text-slate-600 hover:text-adzo transition">Services</a>
                     <a href="/pages/industries.php"
                         class="text-sm font-bold text-slate-600 hover:text-adzo transition <?php echo $current_page == 'industries' ? 'text-adzo' : ''; ?>">Industries</a>
-                    <a href="https://adzodigital.com/blog/" target="_blank"
-                        class="text-sm font-bold text-slate-600 hover:text-adzo transition">Blog</a>
 
                     <div class="flex items-center gap-3 ml-2 lg:ml-4">
                         <a href="https://wa.me/918368051069" target="_blank"
