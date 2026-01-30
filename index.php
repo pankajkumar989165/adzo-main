@@ -627,41 +627,52 @@ require_once __DIR__ . '/includes/header.php';
 <section id="industries" class="py-24 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16 reveal">
-            <h3 class="text-3xl lg:text-4xl font-black text-slate-900 mb-4">Industries We Serve</h3>
-            <p class="text-slate-500 max-w-xl mx-auto">Specialized growth systems for high-intent niches.</p>
+            <h2 class="flex items-center justify-center gap-3 text-4xl lg:text-5xl font-extrabold text-slate-900 mb-4">
+                <span class="text-4xl text-adzo">🎯</span> Industries We Serve
+            </h2>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 reveal">
-            <a href="/pages/industries/hair-clinics.php"
-                class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group block">
-                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🩺</span>
-                <p class="font-bold text-sm text-slate-800 group-hover:text-adzo transition">Clinics</p>
-                <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Dental, Skin, Hair</p>
-            </a>
-            <a href="/pages/industries/fitness-coaches.php"
-                class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group block">
-                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🎓</span>
-                <p class="font-bold text-sm text-slate-800 group-hover:text-adzo transition">Coaches</p>
-                <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Institutes & Training</p>
-            </a>
-            <a href="/pages/industries/real-estate.php"
-                class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group block">
-                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🏠</span>
-                <p class="font-bold text-sm text-slate-800 group-hover:text-adzo transition">Real Estate</p>
-                <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Agents & Travel</p>
-            </a>
-            <a href="/pages/industries/local-services.php"
-                class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group block">
-                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🛠️</span>
-                <p class="font-bold text-sm text-slate-800 group-hover:text-adzo transition">Service Providers</p>
-                <p class="text-[10px] text-slate-400 mt-1 uppercase font-black">Local Experts</p>
-            </a>
-            <a href="/pages/industries.php"
-                class="p-6 bg-adzo rounded-2xl text-center group shadow-lg shadow-orange-100 block">
-                <span class="text-3xl block mb-4 group-hover:scale-110 transition">🚀</span>
-                <p class="font-bold text-sm text-white underline">See All</p>
-                <p class="text-[10px] text-white/70 mt-1 uppercase font-black">Niche Businesses</p>
-            </a>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto reveal">
+            <!-- Clinic -->
+            <div
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
+                <p class="font-bold text-slate-800 text-lg">Clinics (Hair, Dental, Skin, IVF)</p>
+            </div>
+            <!-- Coaches -->
+            <div
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
+                <p class="font-bold text-slate-800 text-lg">Coaches & Training Institutes</p>
+            </div>
+            <!-- Real Estate -->
+            <div
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
+                <p class="font-bold text-slate-800 text-lg">Real Estate & Travel Businesses</p>
+            </div>
+            <!-- Local Services -->
+            <div
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
+                <p class="font-bold text-slate-800 text-lg">Local & Service Providers</p>
+            </div>
+            <!-- SMB -->
+            <div
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
+                <p class="font-bold text-slate-800 text-lg">Small & Medium Businesses</p>
+            </div>
+            <!-- More -->
+            <div
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
+                <p class="font-bold text-slate-800 text-lg">And More</p>
+            </div>
+        </div>
+
+        <!-- Footer Banner -->
+        <div class="mt-12 max-w-5xl mx-auto reveal" style="transition-delay: 100ms;">
+            <div class="bg-[#fff6e6] rounded-[2rem] p-10 text-center">
+                <p class="text-lg text-slate-700 leading-relaxed font-medium">
+                    Whether your business is in a niche we've already worked with or something completely different,
+                    <span class="text-adzo font-bold">we can help</span>. Let's talk about your growth.
+                </p>
+            </div>
         </div>
     </div>
 </section>
