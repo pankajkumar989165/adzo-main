@@ -27,7 +27,7 @@ require_once __DIR__ . '/../includes/header.php';
             <!-- Clinics -->
             <a href="/pages/industries/hair-clinics.php"
                 class="p-8 bg-slate-50 rounded-2xl border border-slate-100 text-center hover:border-adzo transition group hover:-translate-y-1 block">
-                <span class="text-4xl block mb-6 group-hover:scale-110 transition">💇‍♂️</span>
+                <span class="text-4xl block mb-6 group-hover:scale-110 transition">👨‍⚕️</span>
                 <p class="font-black text-lg text-slate-900 group-hover:text-adzo transition mb-2">Hair Clinics</p>
                 <p class="text-xs text-slate-500 uppercase tracking-wide">Transplants & Treatments</p>
             </a>

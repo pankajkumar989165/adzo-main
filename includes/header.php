@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../config/config.php';
+
 // Default values if not set
 $page_title = $page_title ?? 'Adzo | Performance-Driven Digital Growth Agency';
 $meta_description = $meta_description ?? 'Adzo helps local and service-based businesses turn clicks into customers using Lead Gen Ads, Local SEO, and ROI-focused marketing systems.';
@@ -20,7 +22,7 @@ $current_page = $current_page ?? 'home';
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="<?php echo htmlspecialchars($og_type ?? 'website'); ?>">
-    <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url ?? 'https://adzodigital.com/'); ?>">
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url ?? SITE_URL); ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($meta_description); ?>">
     <meta property="og:image"
@@ -28,8 +30,7 @@ $current_page = $current_page ?? 'home';
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url"
-        content="<?php echo htmlspecialchars($canonical_url ?? 'https://adzodigital.com/'); ?>">
+    <meta property="twitter:url" content="<?php echo htmlspecialchars($canonical_url ?? SITE_URL); ?>">
     <meta property="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>">
     <meta property="twitter:description" content="<?php echo htmlspecialchars($meta_description); ?>">
     <meta property="twitter:image"
@@ -118,24 +119,23 @@ $current_page = $current_page ?? 'home';
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <div class="flex-shrink-0">
-                    <a href="/index.php">
+                    <a href="<?php echo SITE_URL; ?>/index.php">
                         <img src="https://adzodigital.com/wp-content/uploads/2025/09/logo-adzo.png" alt="Adzo Logo"
                             class="h-10 w-auto">
                     </a>
                 </div>
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex space-x-6 lg:space-x-8 items-center">
-                    <a href="/index.php#about" class="text-sm font-bold text-slate-600 hover:text-adzo transition">Who
+                    <a href="<?php echo SITE_URL; ?>/index.php#about"
+                        class="text-sm font-bold text-slate-600 hover:text-adzo transition">Who
                         We Are</a>
-                    <a href="/index.php#services"
+                    <a href="<?php echo SITE_URL; ?>/index.php#services"
                         class="text-sm font-bold text-slate-600 hover:text-adzo transition">Services</a>
-                    <a href="/pages/industries.php"
-                        class="text-sm font-bold text-slate-600 hover:text-adzo transition <?php echo $current_page == 'industries' ? 'text-adzo' : ''; ?>">Industries</a>
-                    <a href="/blog.php"
+                    <a href="<?php echo SITE_URL; ?>/blog.php"
                         class="text-sm font-bold text-slate-600 hover:text-adzo transition <?php echo $current_page == 'blog' ? 'text-adzo' : ''; ?>">Blog</a>
 
                     <div class="flex items-center gap-3 ml-2 lg:ml-4">
-                        <a href="https://wa.me/918368051069" target="_blank"
+                        <a href="https://wa.me/919870311239" target="_blank"
                             class="bg-whatsapp hover:bg-[#20ba5a] text-white px-5 py-2.5 rounded-full font-bold text-sm transition shadow-lg shadow-green-100 flex items-center gap-2">
                             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                                 <path
@@ -143,7 +143,7 @@ $current_page = $current_page ?? 'home';
                             </svg>
                             WhatsApp
                         </a>
-                        <a href="https://wa.me/918368051069"
+                        <a href="https://wa.me/919870311239"
                             class="bg-adzo hover:bg-adzo-dark text-white px-5 py-2.5 rounded-full font-bold text-sm transition shadow-lg shadow-orange-200">
                             Growth Audit
                         </a>
@@ -151,7 +151,7 @@ $current_page = $current_page ?? 'home';
                 </div>
                 <!-- Mobile Menu Button - for now just simplified -->
                 <div class="md:hidden flex items-center gap-2">
-                    <a href="https://wa.me/918368051069"
+                    <a href="https://wa.me/919870311239"
                         class="bg-whatsapp text-white px-4 py-1.5 rounded-full font-bold text-xs flex items-center gap-1">
                         <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
                             <path

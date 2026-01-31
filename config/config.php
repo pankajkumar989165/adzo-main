@@ -8,7 +8,8 @@ define('SITE_NAME', 'Aadzo Digital');
 // Automatically detect the protocol (http/https) and domain
 $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http";
 $domain = $_SERVER['HTTP_HOST'];
-define('SITE_URL', $protocol . "://" . $domain);
+$relative_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', str_replace('\\', '/', dirname(__DIR__)));
+define('SITE_URL', $protocol . "://" . $domain . $relative_path);
 define('SITE_EMAIL', 'info@adzodigital.com');
 
 // Path Settings
@@ -48,4 +49,3 @@ ini_set('error_log', BASE_PATH . '/error.log');
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
-?>

@@ -5,10 +5,7 @@
  */
 
 // Database credentials
-define('DB_HOST', 'localhost');
-define('DB_USER', 'adzo_admin');
-define('DB_PASS', 'Adzonoida@1208');
-define('DB_NAME', 'adzodigital_blog');
+require_once __DIR__ . '/../../db_secure.php';
 
 // Create database connection
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
@@ -84,4 +81,3 @@ function fetch_one($query, $params = [], $types = '')
 
     return $data;
 }
-?>

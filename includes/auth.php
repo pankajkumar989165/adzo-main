@@ -180,4 +180,3 @@ function time_ago($datetime)
 
     return date('M d, Y', $timestamp);
 }
-?>

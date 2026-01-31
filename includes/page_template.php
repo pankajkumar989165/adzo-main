@@ -32,7 +32,7 @@ require_once __DIR__ . '/header.php';
                 class="bg-adzo hover:bg-adzo-dark text-white px-8 py-4 rounded-2xl text-lg font-bold shadow-2xl shadow-orange-900/20 transition-all hover:scale-105">
                 Book Free Consultation
             </a>
-            <a href="https://wa.me/918368051069" target="_blank"
+            <a href="https://wa.me/919870311239" target="_blank"
                 class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-2xl text-lg font-bold transition-all hover:scale-105 flex items-center justify-center gap-2">
                 <svg class="w-5 h-5 text-whatsapp" fill="currentColor" viewBox="0 0 24 24">
                     <path

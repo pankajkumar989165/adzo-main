@@ -229,11 +229,4 @@ require_once __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<footer class="blog-footer">
-    <div class="container">
-        <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?>. All rights reserved.</p>
-    </div>
-</footer>
-</body>
-
-</html>
+<?php require_once __DIR__ . '/includes/footer.php'; ?>

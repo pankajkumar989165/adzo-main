@@ -27,7 +27,7 @@ require_once __DIR__ . '/includes/header.php';
                         class="inline-flex justify-center items-center bg-adzo hover:bg-adzo-dark text-white px-8 py-4 rounded-2xl text-lg font-bold shadow-2xl shadow-orange-200 transition-all hover:scale-105 active:scale-95">
                         Get A FREE 30-Min Audit
                     </a>
-                    <a href="https://wa.me/918368051069"
+                    <a href="https://wa.me/919870311239"
                         class="inline-flex items-center justify-center bg-white border-2 border-slate-200 hover:border-adzo px-8 py-4 rounded-2xl text-lg font-bold text-slate-700 hover:text-adzo transition-all group shadow-sm">
                         <svg class="w-6 h-6 mr-2 text-whatsapp group-hover:scale-110 transition" fill="currentColor"
                             viewBox="0 0 24 24">
@@ -165,7 +165,7 @@ require_once __DIR__ . '/includes/header.php';
         </div>
 
         <div class="text-center mt-16 reveal">
-            <a href="/pages/about.php"
+            <a href="pages/about.php"
                 class="inline-block bg-adzo hover:bg-adzo-dark text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
                 Learn More About Us
             </a>
@@ -185,10 +185,10 @@ require_once __DIR__ . '/includes/header.php';
             <p class="text-slate-500 font-medium text-lg">Main Focus</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Lead Generation (Primary) -->
             <div
-                class="bg-white p-8 lg:p-10 rounded-[2rem] border-2 border-adzo shadow-xl relative reveal group hover:shadow-2xl transition-all duration-300">
+                class="bg-white p-8 lg:p-10 rounded-[2rem] border-2 border-transparent hover:border-adzo shadow-xl relative reveal group hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
                 <div class="flex items-start justify-between mb-6">
                     <div>
                         <div class="text-4xl mb-3">🔥</div>
@@ -235,14 +235,14 @@ require_once __DIR__ . '/includes/header.php';
                     </p>
                 </div>
 
-                <a href="/pages/services/lead-generation-ads.php"
-                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
+                <a href="pages/services/lead-generation-ads.php"
+                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1 mt-auto">
                     Get Leads for My Business
                 </a>
             </div>
 
             <!-- Local SEO -->
-            <div class="bg-white p-8 lg:p-10 rounded-[2rem] shadow-lg border border-transparent hover:border-adzo/20 reveal group transition-all duration-300"
+            <div class="bg-white p-8 lg:p-10 rounded-[2rem] shadow-lg border-2 border-transparent hover:border-adzo reveal group transition-all duration-300 hover:shadow-xl flex flex-col h-full"
                 style="transition-delay: 100ms;">
                 <div class="flex items-start justify-between mb-6">
                     <div>
@@ -285,16 +285,14 @@ require_once __DIR__ . '/includes/header.php';
                     </li>
                 </ul>
 
-                <div class="h-4"></div> <!-- Spacer to align buttons -->
-
-                <a href="/pages/services/local-seo-gmb.php"
-                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
+                <a href="pages/services/local-seo-gmb.php"
+                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1 mt-auto">
                     Improve My Google Ranking
                 </a>
             </div>
 
             <!-- Social Media via -->
-            <div class="bg-white p-8 lg:p-10 rounded-[2rem] shadow-lg border border-transparent hover:border-adzo/20 reveal group transition-all duration-300"
+            <div class="bg-white p-8 lg:p-10 rounded-[2rem] shadow-lg border-2 border-transparent hover:border-adzo reveal group transition-all duration-300 hover:shadow-xl flex flex-col h-full"
                 style="transition-delay: 200ms;">
                 <div class="flex items-start justify-between mb-6">
                     <div>
@@ -329,10 +327,8 @@ require_once __DIR__ . '/includes/header.php';
                     </li>
                 </ul>
 
-                <div class="h-12 hidden lg:block"></div> <!-- Larger Spacer -->
-
-                <a href="/pages/services/social-media-presence.php"
-                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1">
+                <a href="pages/services/social-media-presence.php"
+                    class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-4 rounded-xl shadow-lg shadow-orange-200 transition-all hover:-translate-y-1 mt-auto">
                     Build My Brand Presence
                 </a>
             </div>
@@ -476,7 +472,7 @@ require_once __DIR__ . '/includes/header.php';
                         <span>Performance-based execution</span>
                     </li>
                 </ul>
-                <a href="/pages/services/influencer-marketing.php"
+                <a href="pages/services/influencer-marketing.php"
                     class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-3.5 rounded-lg shadow-md transition-all hover:-translate-y-0.5">
                     Explore Influencer Campaigns
                 </a>
@@ -510,7 +506,7 @@ require_once __DIR__ . '/includes/header.php';
                         <span>Creative testing for better ROI</span>
                     </li>
                 </ul>
-                <a href="/pages/services/ugc-video-ads.php"
+                <a href="pages/services/ugc-video-ads.php"
                     class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-3.5 rounded-lg shadow-md transition-all hover:-translate-y-0.5">
                     Create Video Ads
                 </a>
@@ -543,7 +539,7 @@ require_once __DIR__ . '/includes/header.php';
                         <span>Lead qualification automation</span>
                     </li>
                 </ul>
-                <a href="/pages/services/whatsapp-automation.php"
+                <a href="pages/services/whatsapp-automation.php"
                     class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-3.5 rounded-lg shadow-md transition-all hover:-translate-y-0.5">
                     Automate My Leads
                 </a>
@@ -577,7 +573,7 @@ require_once __DIR__ . '/includes/header.php';
                         <span>A/B testing recommendations</span>
                     </li>
                 </ul>
-                <a href="/pages/services/cro.php"
+                <a href="pages/services/cro.php"
                     class="block w-full text-center bg-adzo hover:bg-adzo-dark text-white font-bold py-3.5 rounded-lg shadow-md transition-all hover:-translate-y-0.5">
                     Improve My Conversions
                 </a>
@@ -595,37 +591,48 @@ require_once __DIR__ . '/includes/header.php';
             </h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto reveal">
-            <!-- Clinic -->
-            <div
-                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
-                <p class="font-bold text-slate-800 text-lg">Clinics (Hair, Dental, Skin, IVF)</p>
-            </div>
-            <!-- Coaches -->
-            <div
-                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
-                <p class="font-bold text-slate-800 text-lg">Coaches & Training Institutes</p>
-            </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 reveal">
+            <!-- Hair Clinics -->
+            <a href="pages/industries/hair-clinics.php"
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex flex-col items-center justify-center text-center group hover:-translate-y-1">
+                <span class="text-4xl mb-4 group-hover:scale-110 transition">👨‍⚕️</span>
+                <p class="font-bold text-slate-800 text-lg group-hover:text-adzo transition">Hair Clinics</p>
+            </a>
+
             <!-- Real Estate -->
-            <div
-                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
-                <p class="font-bold text-slate-800 text-lg">Real Estate & Travel Businesses</p>
-            </div>
-            <!-- Local Services -->
-            <div
-                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
-                <p class="font-bold text-slate-800 text-lg">Local & Service Providers</p>
-            </div>
-            <!-- SMB -->
-            <div
-                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
-                <p class="font-bold text-slate-800 text-lg">Small & Medium Businesses</p>
-            </div>
-            <!-- More -->
-            <div
-                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex items-center justify-center text-center">
-                <p class="font-bold text-slate-800 text-lg">And More</p>
-            </div>
+            <a href="pages/industries/real-estate.php"
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex flex-col items-center justify-center text-center group hover:-translate-y-1">
+                <span class="text-4xl mb-4 group-hover:scale-110 transition">🏠</span>
+                <p class="font-bold text-slate-800 text-lg group-hover:text-adzo transition">Real Estate</p>
+            </a>
+
+            <!-- Dental Clinics -->
+            <a href="pages/industries/dental-clinics.php"
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex flex-col items-center justify-center text-center group hover:-translate-y-1">
+                <span class="text-4xl mb-4 group-hover:scale-110 transition">🦷</span>
+                <p class="font-bold text-slate-800 text-lg group-hover:text-adzo transition">Dental Clinics</p>
+            </a>
+
+            <!-- Fitness Coaches -->
+            <a href="pages/industries/fitness-coaches.php"
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex flex-col items-center justify-center text-center group hover:-translate-y-1">
+                <span class="text-4xl mb-4 group-hover:scale-110 transition">💪</span>
+                <p class="font-bold text-slate-800 text-lg group-hover:text-adzo transition">Fitness Coaches</p>
+            </a>
+
+            <!-- E-commerce -->
+            <a href="pages/industries/e-commerce.php"
+                class="p-8 bg-orange-50 rounded-xl border-l-4 border-adzo shadow-sm hover:shadow-md transition-all flex flex-col items-center justify-center text-center group hover:-translate-y-1">
+                <span class="text-4xl mb-4 group-hover:scale-110 transition">🛍️</span>
+                <p class="font-bold text-slate-800 text-lg group-hover:text-adzo transition">E-commerce</p>
+            </a>
+
+            <!-- View All -->
+            <a href="pages/industries.php"
+                class="p-8 bg-white border-2 border-adzo border-dashed rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col items-center justify-center text-center group hover:-translate-y-1">
+                <span class="text-4xl mb-4 group-hover:scale-110 transition">🚀</span>
+                <p class="font-bold text-adzo text-lg">View All Industries</p>
+            </a>
         </div>
 
         <!-- Footer Banner -->
@@ -659,10 +666,10 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-10">
             <a href="#contact"
-                class="flex items-center justify-center bg-white text-adzo px-8 py-4.5 rounded-full text-lg font-bold shadow-xl hover:shadow-2xl hover:bg-orange-50 transition-all hover:-translate-y-1 w-full sm:w-auto min-w-[240px]">
+                class="flex items-center justify-center bg-white border-2 border-white text-adzo px-8 py-4 rounded-full text-lg font-bold shadow-xl hover:shadow-2xl hover:bg-orange-50 transition-all hover:-translate-y-1 w-full sm:w-auto min-w-[240px]">
                 Book Free Audit Now <span class="ml-2">→</span>
             </a>
-            <a href="https://wa.me/918368051069"
+            <a href="https://wa.me/919870311239"
                 class="flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-white/10 transition-all hover:-translate-y-1 w-full sm:w-auto min-w-[240px]">
                 Chat on WhatsApp <span class="ml-2">→</span>
             </a>

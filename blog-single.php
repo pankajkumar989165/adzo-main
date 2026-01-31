@@ -79,8 +79,8 @@ $json_ld = [
             "url" => SITE_URL . "/assets/img/logo.png"
         ]
     ],
-    "datePublished" => date('c', strtotime($blog['published_at'])),
-    "dateModified" => date('c', strtotime($blog['updated_at']))
+    "datePublished" => !empty($blog['published_at']) ? date('c', strtotime($blog['published_at'])) : date('c'),
+    "dateModified" => !empty($blog['updated_at']) ? date('c', strtotime($blog['updated_at'])) : date('c')
 ];
 
 $extra_head_content = '<link rel="stylesheet" href="' . SITE_URL . '/assets/css/blog-style.css">
@@ -209,16 +209,5 @@ require_once __DIR__ . '/includes/header.php';
     </article>
 </main>
 
-<footer class="blog-footer">
-    <div class="container">
-        <p>&copy;
-            <?php echo date('Y'); ?>
-            <?php echo SITE_NAME; ?>. All rights reserved.
-        </p>
-    </div>
-</footer>
-
 <script src="<?php echo SITE_URL; ?>/assets/js/blog-script.js"></script>
-</body>
-
-</html>
+<?php require_once __DIR__ . '/includes/footer.php'; ?>

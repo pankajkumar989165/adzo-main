@@ -18,7 +18,7 @@ RewriteRule ^blog/([^/]+)/?$ blog-single.php?slug=$1 [L,QSA]
 RewriteRule ^category/([^/]+)/?$ blog.php?category=$1 [L,QSA]
 
 # Protect config files
-<FilesMatch "^(config|database)\.php$">
+<FilesMatch "^(config|database|db_secure)\.php$">
     Order allow,deny
     Deny from all
 </FilesMatch>

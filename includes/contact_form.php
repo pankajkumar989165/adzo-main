@@ -25,8 +25,8 @@
                         <div>
                             <p class="font-bold text-slate-900 text-lg">Call Us Directly</p>
                             <p class="text-slate-500 text-sm mb-1">Mon-Sat, 10am - 7pm</p>
-                            <a href="tel:8368051069"
-                                class="text-xl font-black text-slate-900 hover:text-adzo transition">836805-1069</a>
+                            <a href="tel:9870311239"
+                                class="text-xl font-black text-slate-900 hover:text-adzo transition">9870311239</a>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@
                         <div>
                             <p class="font-bold text-slate-900 text-lg">WhatsApp Chat</p>
                             <p class="text-slate-500 text-sm mb-1">Instant Response</p>
-                            <a href="https://wa.me/918368051069" target="_blank"
+                            <a href="https://wa.me/919870311239" target="_blank"
                                 class="text-xl font-black text-slate-900 hover:text-adzo transition">Chat Now</a>
                         </div>
                     </div>
@@ -53,8 +53,8 @@
                         <div>
                             <p class="font-bold text-slate-900 text-lg">Email Us</p>
                             <p class="text-slate-500 text-sm mb-1">For Proposals & Inquiries</p>
-                            <a href="mailto:info@adzo.in"
-                                class="text-lg font-bold text-slate-900 hover:text-adzo transition">info@adzo.in</a>
+                            <a href="mailto:info@adzodigital.com"
+                                class="text-lg font-bold text-slate-900 hover:text-adzo transition">info@adzodigital.com</a>
                         </div>
                     </div>
                 </div>
